@@ -1,5 +1,13 @@
+import styles from "./Footer.module.scss";
+
 function Footer() {
-  return <h1 className="b2">Footer</h1>;
+  return (
+    <footer
+      className={`${styles.footer} d-flex flex-row align-items-center justify-content-center p-20`}
+    >
+      <p>Copyright © 2024 Cookchef 🚀by Oumar🚀</p>
+    </footer>
+  );
 }
 
 export default Footer;
