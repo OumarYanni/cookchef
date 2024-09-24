@@ -32,3 +32,11 @@ img {
 .material-symbols-outlined {
   font-size: inherit;
 }
+
+input {
+  font-family: var(--font-family);
+}
+
+::placeholder {
+  font-family: var(--font-family);
+}
